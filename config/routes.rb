@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'decodings/show'
 
+  post 'decodings/show'
+
   get 'encodings/index'
 
   get 'encodings/new'
@@ -15,7 +17,7 @@ Rails.application.routes.draw do
 
   get 'encodings/new'
 
-  post 'encodings/show' 
+  post 'encodings/show'
 
   get 'encodings/show'
 
