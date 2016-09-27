@@ -13,4 +13,5 @@ class EncodingsController < ApplicationController
     @message = Caesar.encode(params['shift'], params['message'])
   end
 
+
 end
