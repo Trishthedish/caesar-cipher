@@ -18,3 +18,5 @@ class DecodingsController < ApplicationController
   end
 
 end
+
+<%  %>
